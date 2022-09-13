@@ -3,7 +3,7 @@ package com.module.autographs.cvmanufacturing.microservice.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "NewCVManufacturingCollection")
+@Document(collection = "cvManufacturingCollection")
 public class NewCVManufacturingDataModel {
 
     @Id
